@@ -215,8 +215,7 @@ html {
     .container-1 {
         flex-direction: column;
         align-items: center;
-        padding: 20px 0;
-        margin-left: 0;
+        margin: 20px o;
     }
 
     .pic {
