@@ -63,6 +63,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 0;
     margin-left: 60px;
     margin-bottom: 70px;
 }
@@ -70,7 +71,6 @@ html {
 .pic {
     margin-right: 40px;
 }
-
 
 .client-roster {
     text-align: center;
@@ -162,47 +162,6 @@ html {
     color: #bbb;
 }
 
-.contact-section {
-    margin: auto;
-    text-align: center;
-    width: 80%;
-    max-width: 1000px;
-    margin-bottom: 50px;
-    color: #fcfcfc;
-}
-
-.contact-section h1 {
-    font-size: 3em;
-    margin-bottom: 40px;
-}
-
-.contact-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-}
-
-.contact-content img {
-    width: 50%;
-    border-radius: 12px;
-    object-fit: cover;
-}
-
-.contact-info {
-    width: 40%;
-    text-align: left;
-}
-
-.contact-info p {
-    margin-bottom: 20px;
-    font-size: 1.2em;
-    line-height: 1.5;
-}
-
-.contact-info strong {
-    color: #bbb;
-}
 
 
 
@@ -256,6 +215,7 @@ html {
     .container-1 {
         flex-direction: column;
         align-items: center;
+        padding: 20px 0;
         margin-left: 0;
     }
 
@@ -288,15 +248,5 @@ html {
 
     .author {
         font-size: 1em;
-    }
-
-    .contact-content img {
-        width: 100%;
-        max-width: 300px;
-    }
-
-    .contact-info {
-        width: 100%;
-        margin-top: 20px;
     }
 }
